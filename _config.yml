@@ -1,0 +1,9 @@
+# Site settings
+title: Rens Design
+email: your-email@domain.com
+description: > 
+  Front End Developer Exam
+baseurl: 
+
+# Build settings
+markdown: kramdown
