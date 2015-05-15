@@ -5,16 +5,16 @@
   background-size: cover;
 }
 /* colors */
-$dark-gray: #1A1A1A;
+$white: #fff;
 $black: #000;
 $gray: #333333;
 $skyblue: #0FB5B3;
-$white: #fff;
+$gray-text: #878787;
 $navbar-text-active: #3a93cc;
 
 body {
   font-family: 'Lato', serif;
-  color: $white;
+  color: $gray-text;
 }
 
 h1 {
@@ -53,7 +53,7 @@ a:focus {
 nav {
   &#navbar-header{
     border-color: transparent;
-    background: $dark-gray;
+    background: $white;
 
   &.navbar-visible {
     top: 0;
@@ -166,7 +166,7 @@ nav {
         padding-top: 212px;
         font-size: 54px;
         letter-spacing: 4px;
-        color: $dark-gray;
+        color: $white;
       }
       h4 {
         padding-top: 2px;
@@ -325,7 +325,7 @@ nav {
             }
             span {
               display: block;
-              color: $white;
+              color: $gray-text;
               margin-top: 12px;
               font-size: 20px;
             }
@@ -343,10 +343,10 @@ nav {
     background-size: cover;
     min-height: 710px;
     h1{
-      color: $dark-gray;
+      color: $white;
     }
     h3 {
-      color: $dark-gray;
+      color: $white;
       font-weight: 300;
       padding-bottom: 3%;
     }
@@ -408,7 +408,7 @@ nav {
         
         .col-md-9 {
           h4 {
-            color: $dark-gray;
+            color: $white;
             font-size: 22px;
             margin: 0px;
             font-weight: 300;
@@ -417,7 +417,7 @@ nav {
           p {
             margin-top:10px;
             font-size: 15px;
-            color: $dark-gray;
+            color: $white;
           }
         } 
       }
