@@ -5,7 +5,7 @@
   background-size: cover;
 }
 /* colors */
-$white: #fff;
+$dark-gray: #1A1A1A;
 $black: #000;
 $gray: #333333;
 $skyblue: #0FB5B3;
@@ -53,7 +53,7 @@ a:focus {
 nav {
   &#navbar-header{
     border-color: transparent;
-    background: $white;
+    background: $dark-gray;
 
   &.navbar-visible {
     top: 0;
@@ -166,11 +166,11 @@ nav {
         padding-top: 212px;
         font-size: 54px;
         letter-spacing: 4px;
-        color: $white;
+        color: $dark-gray;
       }
       h4 {
         padding-top: 2px;
-        color: $white;
+        color: $dark-gray;
       }
       .btn {
         margin-top: 52px;
@@ -184,7 +184,7 @@ nav {
 #task {
   .task-container {
     min-height: 710px;
-    background-color: $white;
+    background-color: $dark-gray;
   }
   .task-content {
     margin: 0 auto;
@@ -343,10 +343,10 @@ nav {
     background-size: cover;
     min-height: 710px;
     h1{
-      color: $white;
+      color: $dark-gray;
     }
     h3 {
-      color: $white;
+      color: $dark-gray;
       font-weight: 300;
       padding-bottom: 3%;
     }
@@ -408,7 +408,7 @@ nav {
         
         .col-md-9 {
           h4 {
-            color: $white;
+            color: $dark-gray;
             font-size: 22px;
             margin: 0px;
             font-weight: 300;
@@ -417,7 +417,7 @@ nav {
           p {
             margin-top:10px;
             font-size: 15px;
-            color: $white;
+            color: $dark-gray;
           }
         } 
       }
