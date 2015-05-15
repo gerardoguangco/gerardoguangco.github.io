@@ -89,7 +89,7 @@ nav {
           padding:0;
 
           a {
-            color: white;
+            color: none;
             img {
               top: auto;
               margin-top: 35px;
@@ -326,7 +326,7 @@ nav {
             }
             span {
               display: block;
-              color: #F1E204;
+              color: $gray-text;
               margin-top: 12px;
               font-size: 20px;
             }
@@ -546,6 +546,7 @@ footer {
        a {
         padding-top: 10px;
         padding-bottom: 10px;
+        color: $white;
       }
     }
   }
