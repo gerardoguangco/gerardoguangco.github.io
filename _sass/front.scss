@@ -14,7 +14,7 @@ $navbar-text-active: #3a93cc;
 $header-gray: #1A1A1A;
 
 body {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Lato', serif;
   color: $gray-text;
 }
 
@@ -72,6 +72,7 @@ nav {
     a {
       text-decoration: none;
         color: $white;
+        font-family: 'Roboto Condensed', sans-serif;
     }
 
     .nav-container {
